@@ -1,0 +1,23 @@
+{
+  "name": "codebox-day-1-1",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "node index.js",
+    "start": "node index.js"
+  },
+  "description": "",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NamitJain421/Codebox-Day-1.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/NamitJain421/Codebox-Day-1/issues"
+  },
+  "homepage": "https://github.com/NamitJain421/Codebox-Day-1#readme"
+}
