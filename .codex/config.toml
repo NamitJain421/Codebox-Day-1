@@ -1,0 +1,5 @@
+# Project-local MCP exercise. Open Codex in this trusted project to load it.
+[mcp_servers.codebox_source]
+command = "node"
+args = ["scripts/mcp-filesystem.js"]
+enabled_tools = ["list_directory", "read_text_file", "search_files", "list_allowed_directories"]

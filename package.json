@@ -3,10 +3,12 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "dev": "node index.js",
-    "start": "node index.js"
+    "start": "node index.js",
+    "dev": "node --watch index.js",
+    "test": "node --test --test-concurrency=1 test/*.test.js",
+    "mcp:check": "node scripts/check-mcp.mjs"
   },
-  "description": "",
+  "description": "Pitchside: a soccer training planner with accounts, persistent MongoDB storage, a weekly calendar, and a JSON CRUD API.",
   "main": "index.js",
   "repository": {
     "type": "git",
@@ -19,5 +21,20 @@
   "bugs": {
     "url": "https://github.com/NamitJain421/Codebox-Day-1/issues"
   },
-  "homepage": "https://github.com/NamitJain421/Codebox-Day-1#readme"
+  "homepage": "https://github.com/NamitJain421/Codebox-Day-1#readme",
+  "engines": {
+    "node": ">=22"
+  },
+  "dependencies": {
+    "dotenv": "^18.0.4",
+    "express": "^5.2.1",
+    "express-rate-limit": "^8.7.0",
+    "helmet": "^8.3.0",
+    "mongodb": "^7.7.0",
+    "mongodb-memory-server-core": "^11.3.0"
+  },
+  "devDependencies": {
+    "@modelcontextprotocol/sdk": "^1.31.0",
+    "@modelcontextprotocol/server-filesystem": "^2026.8.31"
+  }
 }
