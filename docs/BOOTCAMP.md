@@ -4,22 +4,22 @@ Reviewed against the provided Day 1 (slide 15), Day 2 (slide 38), and Day 3 (sli
 
 ## Required app deliverables
 
-| Requirement | Implementation / evidence |
-| --- | --- |
-| Run a Node.js app; package.json and dev script | `npm start`, `npm run dev` |
-| Change the app's message | Pitchside soccer homepage and account screen |
-| Add a file or route | Frontend, authentication, database, and training-route modules |
-| At least three API routes | Ten routes documented in README |
-| JSON responses | All API successes and errors return JSON |
-| MongoDB or Supabase credentials | MongoDB credentials generated locally in `.env` |
-| `.env` file; keep secrets out of Git | `.env.example` plus `.gitignore`; local DB/cache ignored |
-| Clean folder structure | `public`, `src/db`, `src/routes`, `src/services`, `src/middleware`, `test`, `docs` |
-| Running website | Homepage at http://localhost:3000 |
-| Database connection | `/api/health` checks a real MongoDB connection |
-| Authentication | Registration, login, logout, private cookie sessions |
-| Website CRUD | New session; list/calendar; edit/complete/reopen; delete confirmation |
-| Git checkpoint and push | See repository history for the Pitchside implementation commit |
-| Bonus: Vercel deployment | Not deployed; local MongoDB requires persistent storage. Public hosting needs a managed DB and provider setup. |
+| Requirement                                    | Implementation / evidence                                                                                      |
+| ---------------------------------------------- | -------------------------------------------------------------------------------------------------------------- |
+| Run a Node.js app; package.json and dev script | `npm start`, `npm run dev`                                                                                     |
+| Change the app's message                       | Pitchside soccer homepage and account screen                                                                   |
+| Add a file or route                            | Frontend, authentication, database, and training-route modules                                                 |
+| At least three API routes                      | Ten routes documented in README                                                                                |
+| JSON responses                                 | All API successes and errors return JSON                                                                       |
+| MongoDB or Supabase credentials                | MongoDB credentials generated locally in `.env`                                                                |
+| `.env` file; keep secrets out of Git           | `.env.example` plus `.gitignore`; local DB/cache ignored                                                       |
+| Clean folder structure                         | `public`, `src/db`, `src/routes`, `src/services`, `src/middleware`, `test`, `docs`                             |
+| Running website                                | Homepage at http://localhost:3000                                                                              |
+| Database connection                            | `/api/health` checks a real MongoDB connection                                                                 |
+| Authentication                                 | Registration, login, logout, private cookie sessions                                                           |
+| Website CRUD                                   | New session; list/calendar; edit/complete/reopen; delete confirmation                                          |
+| Git checkpoint and push                        | See repository history for the Pitchside implementation commit                                                 |
+| Bonus: Vercel deployment                       | Not deployed; local MongoDB requires persistent storage. Public hosting needs a managed DB and provider setup. |
 
 ## Verification performed
 

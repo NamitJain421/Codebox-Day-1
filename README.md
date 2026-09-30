@@ -49,18 +49,18 @@ The local demo is served over HTTP on the loopback interface. A public deploymen
 
 All training routes require a signed-in session cookie. The frontend calls them on the same origin.
 
-| Method | Route | Purpose |
-| --- | --- | --- |
-| POST | `/api/auth/register` | Create an account |
-| POST | `/api/auth/login` | Sign in |
-| GET | `/api/auth/me` | Read the signed-in user |
-| POST | `/api/auth/logout` | Sign out and revoke the session |
-| GET | `/api/health` | Check the database connection |
-| GET | `/api/training` | Read your training plan |
-| GET | `/api/training/:id` | Read one session |
-| POST | `/api/training` | Create a session |
-| PATCH | `/api/training/:id` | Update a session or mark it complete |
-| DELETE | `/api/training/:id` | Delete a session |
+| Method | Route                | Purpose                              |
+| ------ | -------------------- | ------------------------------------ |
+| POST   | `/api/auth/register` | Create an account                    |
+| POST   | `/api/auth/login`    | Sign in                              |
+| GET    | `/api/auth/me`       | Read the signed-in user              |
+| POST   | `/api/auth/logout`   | Sign out and revoke the session      |
+| GET    | `/api/health`        | Check the database connection        |
+| GET    | `/api/training`      | Read your training plan              |
+| GET    | `/api/training/:id`  | Read one session                     |
+| POST   | `/api/training`      | Create a session                     |
+| PATCH  | `/api/training/:id`  | Update a session or mark it complete |
+| DELETE | `/api/training/:id`  | Delete a session                     |
 
 Example session body:
 
