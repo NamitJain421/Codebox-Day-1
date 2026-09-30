@@ -1,5 +1,7 @@
 # Pitchside ⚽
 
+Video link: https://1drv.ms/p/c/2d08763aeba81a74/IQA1nwjid4eVQ7zVHQVEDtwMAbUeK9STGd1NY2vMQZatalU
+
 A soccer training planner built for Codebox Bootcamp. Create a private account, plan training sessions, and track the work you put in on the pitch.
 
 ## Run the website
